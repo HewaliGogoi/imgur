@@ -1,0 +1,117 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  z-index: 1000;
+}
+.navbar > div {
+  width: 100%;
+}
+
+.nav-btn1 {
+  border: none;
+  background-color: #6531fb;
+  height: 35px;
+  border-radius: 4px;
+  padding: 0 10px;
+  color: #fff;
+  font-weight: 600;
+  min-width: 110px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+.btn1 {
+  margin-left: 20px;
+}
+.nav-btn4 {
+  border: none;
+  background-color: #1bb76e;
+  height: 35px;
+  padding: 0 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  min-width: 110px;
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-in {
+  border: none;
+  background-color: transparent;
+  height: 35px;
+  border-radius: 4px;
+  padding: 0 10px;
+  color: #fff;
+  font-weight: 600;
+  min-width: 110px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-nav {
+  display: flex;
+  padding: 0 10px;
+}
+.tbody-outer {
+  background: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+  color: white;
+}
+.tbody-outer > h2 {
+  width: 100%;
+  top: 10%;
+  color: #aed8ea;
+  text-align: center;
+  position: absolute;
+  /* margin-bottom: -20%; */
+}
+.top-body {
+  height: 53vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.top-body > div {
+  height: 130px;
+  max-width: 300px;
+  width: 110px;
+  background-size: 160px 90px;
+  margin: 5px;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.top-body > div > div {
+  height: 35%;
+  width: 100%;
+}
+
+.top-body > div:nth-child(1) {
+  background-image: url("https://i.imgur.com/XTp08uv_d.jpg?maxwidth=800&shape=thumb&fidelity=high");
+  width: 220px;
+  background-size: 220px 150px;
+}
+
+.nav-left {
+  justify-content: right;
+}
+
